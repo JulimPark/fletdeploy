@@ -4,6 +4,7 @@ def main(page: ft.Page):
     page.bgcolor = 'blue'
     
     cols = ft.Text('cloudflare deploy',color='white')
+    cols = ft.Text('For Deploy test',color='white')
     page.add(cols)
     
 ft.app(target=main)
