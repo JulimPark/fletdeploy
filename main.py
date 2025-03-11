@@ -70,4 +70,4 @@ def main(page: ft.Page):
     page.fonts={'zaramain':'https://uctmfeyuzyigljzvslth.supabase.co/storage/v1/object/sign/testbuck/OPTIBodoni-Antiqua.otf?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJ0ZXN0YnVjay9PUFRJQm9kb25pLUFudGlxdWEub3RmIiwiaWF0IjoxNzQwOTkxMDM0LCJleHAiOjE3NzI1MjcwMzR9.BYxXY6vXOOoyk_L1xudbJzfy42bRI90WtWzFfGOJDcY','typo1':'AmericanTypewriter.ttc','typo2':'MTCORSVA.TTF'}
     page.window.height,page.window.width = 852,393 # 논리적 해상도임.(물리적해상도는 )
     page.update()
-ft.app(main,view=ft.WEB_BROWSER)
+ft.app(main,view=ft.WEB_BROWSER,web_renderer=ft.WebRenderer.AUTO)
