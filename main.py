@@ -4,7 +4,8 @@ import flet as ft
     # print(page.window.width)
     # print(ft.PagePlatform.MACOS==page.platform)
     
-
+import logging
+logging.basicConfig(level=logging.DEBUG)
 
 def main(page: ft.Page):
 
